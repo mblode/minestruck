@@ -1,0 +1,27 @@
+
+/*CSS Styling for Mobile*/
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    body {
+        background-attachment: fixed;
+    }
+    #logo img{
+        width: 400px;
+        height: 200px;
+    }
+    #server-ip{
+        text-align: center;
+        font-size: 0.7em;
+    }
+    nav[role=navigation] ul li a {
+        margin-left: 5em;
+    }
+    #copyright {
+        font-size: 0.6em;
+        margin-left: -200px;
+    }
+    
+    .topbar {
+        height: 100px;
+    }
+}

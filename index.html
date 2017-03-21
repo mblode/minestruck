@@ -1,0 +1,55 @@
+
+<html lang="en">
+
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        
+        <title>MineStruck | Home</title>
+
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Didact+Gothic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/scripts.min.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        
+    </head>
+    
+    <body>
+        
+        <div id="top-bar">
+          <div id="server-join">
+            <p>Come join us: <span>Play.Minestruck.Net</span></p>
+          </div>
+          <div id="server-ip">
+                <script>
+                    $.getJSON( 'http://mcping.net/api/Server IP/online', function( status ) {
+                        document.querySelector('.players-online').innerHTML = '<span class="color">' + status.online + '</span> Players Online';
+                    });
+    			</script>
+                <span class="players-online"><span class="color">0</span> Players Online</span><br><br>
+          </div>
+        </div>
+        <header role="banner">
+            
+            <div id="logo">
+                <img src="img/logo.png" alt="Server Logo">
+            </div>
+            
+            <nav role="navigation">
+                <ul>
+                    <li><a href="http://www.minestruck.net/forum"><span>FORUM</span></a></li>
+                    <li><a href="http://store.minestruck.net/"><span>STORE</span></a></li>
+                    <li><a href="http://www.minestruck.net/staff"><span>STAFF</span></a></li>
+                    <li><a href="#yourlinkgoeshere"><span>VOTE</span></a></li>
+                    <li><a href="http://www.minestruck.net/forum/m/42119649/viewforum/7867627"><span>BANS</span></a></li>
+                </ul>
+            </nav>
+        </header>
+        
+    </body>
+</html>
