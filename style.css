@@ -1,0 +1,293 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+a {
+	color: #fa694e;
+}
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+.navbar {
+	margin: 0;
+}
+.icon-bar {
+	background-color: #000;
+}
+.navbar-brand {
+	color: #111;
+	font-size: 15pt;
+	letter-spacing: 1px;
+	padding-top: 25px;
+	font-weight: 200;
+}
+.navbar ul li a {
+	color: #101115;
+	text-transform: uppercase;
+	font-weight: 300;
+	padding: 29px 40px 29px 40px;
+}
+.navbar ul li a:hover {
+	background-color: #f3f3f3;
+}
+.active a {
+	background-color: #f3f3f3;
+}
+.main-part {
+	background: url(images/header-bg1.jpg) #333333;
+	text-align: center;
+	width: 100%;
+	background-position: 50% 50%;
+ 	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+	
+	height: 565px;
+	border-bottom: 7px solid #e5e5e5;
+}
+.main-part-small {
+	background: url(images/header-bg.jpg) #333333;
+	text-align: center;
+	width: 100%;
+	height: 250px;
+	background-position: 50% 50%;
+ 	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+	border-bottom: 5px solid #e5e5e5;
+}
+.main-part-small h1  {
+	color: #ffffff;
+	margin-top: 100px;
+	font-weight: 200;
+}
+.main-part-small small {
+	color: #ffffff;
+	font-weight: 100;
+}
+.main-part h2 {
+	margin-top: 190px;
+	margin-bottom: 7px;
+	font-size: 30pt;
+	font-weight: 200;
+	color: #fff;
+}
+.main-part p {
+	color: #fff;
+	font-size: 15pt;
+	font-weight: 300;
+}
+hr {
+	opacity: 0.1;
+	margin-bottom: 25px;
+}
+.button-one {
+	color: #ffffff;
+	background-color: #fa694e;
+	padding: 15px 30px 15px 30px;
+	border-radius: 10px;
+	border-style: none;
+	font-weight: 200;
+	font-size: 15pt;
+}
+.span2 {
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+}
+.button-two {
+	color: #ffffff;
+	background-color: #fa694e;
+	padding: 5px 7px 5px 7px;
+	border-radius: 5px;
+}
+.item {
+	font-size: 15pt;
+	font-weight: 200;
+}
+.item ul li {
+	font-size: 12pt;
+}
+.gold {
+	background: url(images/gold.png) no-repeat;
+	height: 150px;
+	width: 150px;
+}
+.emerald {
+	background: url(images/emerald.png) no-repeat;
+	height: 150px;
+	width: 150px;
+}
+.diamond {
+	background: url(images/diamond.png) no-repeat;
+	height: 150px;
+	width: 150px;
+}
+.ender-perl {
+	background: url(images/ender-perl.png) no-repeat;
+	height: 150px;
+	width: 150px;
+}
+img {
+	margin-top: 2px;
+}
+.user-info {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.user-section-text {
+	padding-top: 40px;
+}
+.comment-template {
+	display: inline;
+}
+.comment-author p {
+	padding-top: 30px;
+	font-size: 12pt;
+}
+.comment-content {
+	border-bottom: 1px solid #333333;
+	border-opacity: 0.3;
+}
+footer {
+	background-color: #333333;
+	color: #ffffff;
+	height: 100px;
+	margin-top: 15px;
+}
+footer p {
+	padding-top: 40px;
+	text-align: center;
+	font-weight: 400;
+}
+.table-forum {
+	margin-top: 5px;
+	border: 1px solid #efefef;
+}
+.table-forum th,
+			 td {
+	padding: 10px 15px 10px 15px;
+}
+.table-forum thead tr th,
+			 tfoot tr td {
+	background-color: #fbfbfb;
+}
+.users-info {
+	background-color:#fbfbfb;
+}
+.forum-post-content {
+	vertical-align: top;
+}
+.f-subtext {
+	font-weight: 600;
+	color: #363536;
+}
+.button-light {
+	background-color: #ffffff;
+	border: solid 1px #eae7e7;
+	border-radius: 10px;
+	padding: 7px 12px 7px 12px;
+}
+.button-light:hover {
+	background-color: #fa694a;
+	color: #ffffff;
+}
+.before-page {
+	display: inline;
+}
+.message-reply {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.reply-img {
+	color: #fa694a;
+	padding: 0 10px 0 10px;
+	display: inline;
+}
+.forum-reply {
+	width: 100%;
+	height: 200px;
+	border: 1px solid #eae7e7;
+}
+@media (max-width: 992px) {
+	.navbar-brand {
+		font-size: 12pt;
+		padding-top: 15px;
+	}
+	.navbar ul li a {
+		padding: 19px 25px 19px 25px;
+	}
+	.main-part {
+		height: 350px;
+		border-bottom: 4px solid #e5e5e5;
+	}
+	.main-part h2 {
+		margin-top: 110px;
+		margin-bottom: 9px;
+		font-size: 23pt;
+	}
+	.main-part p {
+		font-size: 13pt;
+	}
+	.button-one {
+		padding: 7px 15px 7px 15px;
+		font-size: 13pt;
+	}
+	.item ul li {
+		font-size: 12pt;
+		line-height: 20px;
+	}
+	.gold {
+		background: url(images/gold-small.png) no-repeat;
+		height: 90px;
+		width: 90px;
+	}
+	.emerald {
+		background: url(images/emerald-small.png) no-repeat;
+		height: 90px;
+		width: 90px;
+	}
+	.diamond {
+		background: url(images/diamond-small.png) no-repeat;
+		height: 90px;
+		width: 90px;
+	}
+	.ender-perl {
+		background: url(images/ender-perl-small.png) no-repeat;
+		height: 90px;
+		width: 90px;
+	}
+	.user-info {
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	.user-info img {
+		height: 60px;
+		width: 60px;
+	}
+	.user-info h2 {
+		font-size: 16pt;
+	}
+	.user-section-text {
+		padding-top: 20px;
+	}
+	footer {
+		height: 70px;
+		margin-top: 10px;
+	}
+	footer p {
+		padding-top: 20px;
+	}
+}
+.date {
+	font-weight: 400;
+	font-size: 20pt;
+	height: 100px;
+	width: 100px;
+	background-color: #333333;
+	color: #ffffff;
+}
